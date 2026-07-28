@@ -1,0 +1,1 @@
+"""WebSocket infrastructure — connection manager and notifier adapter."""

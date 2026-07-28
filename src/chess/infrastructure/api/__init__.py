@@ -1,0 +1,1 @@
+"""FastAPI routes — HTTP + WebSocket endpoints."""

@@ -104,7 +104,7 @@ class TestCenarioB:
             increment_calls.append(code)
             return 0
 
-        increment_repo.increment_clicks = track_increment  # type: ignore[method-assign]
+        increment_repo.increment_clicks = track_increment  # type: ignore[assignment]
 
         resolve_uc = ResolveLinkUseCase(resolve_repo)
         increment_uc = IncrementClickUseCase(increment_repo)
